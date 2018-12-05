@@ -581,7 +581,7 @@ console.log("sendCustoMessage "+ messageText);
     switch (messageText.toLowerCase()) {
 
       case 'get_started_payload':
-        sendImageMessage(recipientId, "https://ecutune-db.com/thumbnail2.jpg");	
+        sendImageMessage(recipientId, "http://www.vandrietuning.nl/bot.jpg");	
         sendWelcomemessage(recipientId);
         break        
 
@@ -1175,19 +1175,19 @@ function addPersistentMenu(){
       "call_to_actions":[ 
         {
           "type":"web_url",
-          "title":"🏎  Chiptuning Simulator",
-          "url":"http://vandrietuning.nl/chiptuning/",
+          "title":"🏎  S�k effekt och prisuppgift",
+          "url":"http://corotuning.com/fordonsdatabas/",
           "webview_height_ratio":"full"
         },
         {
           "type":"web_url",
-          "title":"🚑 File Service",
-          "url":"http://vandrietuning.nl/file-service/",
+          "title":"🚑 Adress",
+          "url":"http://corotuning.com/kontakt/",
           "webview_height_ratio":"full"
         },
 	{
             "type":"postback",
-            "title": "📞 Informations & Contacts",
+            "title": "📞 Ring oss",
             "payload": "contactos"
         }
       ]

@@ -746,8 +746,8 @@ function sendButtonMessage(recipientId) {
           buttons:[
 		{
             "type": "phone_number",
-            "title": "Leo van Drie",
-            "payload": "+31641974649"
+            "title": "Corotuning",
+            "payload": "+4631205504"
           	}
 	  ]
         }
@@ -1175,19 +1175,19 @@ function addPersistentMenu(){
       "call_to_actions":[ 
         {
           "type":"web_url",
-          "title":"🏎  Chiptuning Simulator",
-          "url":"http://vandrietuning.nl/chiptuning/",
+          "title":"🏎  S�k effekt och prisuppgift",
+          "url":"http://corotuning.com/fordonsdatabas/",
           "webview_height_ratio":"full"
         },
         {
           "type":"web_url",
-          "title":"🚑 File Service",
-          "url":"http://vandrietuning.nl/file-service/",
+          "title":"🚑 Adress",
+          "url":"http://corotuning.com/kontakt/",
           "webview_height_ratio":"full"
         },
 	{
             "type":"postback",
-            "title": "📞 Informations & Contacts",
+            "title": "📞 Ring oss",
             "payload": "contactos"
         }
       ]
